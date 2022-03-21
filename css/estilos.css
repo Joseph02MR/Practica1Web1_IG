@@ -21,10 +21,10 @@ body {
     width: 100%;
     height: 100vh;
     min-height: 600px;
-    max-height: 800px;
+    max-height: 900px;
     position: relative;
     display: grid;
-    grid-template-rows: 100px 1fr;
+    grid-template-rows: 180px 1fr;
     color: #fff;
 }
 
@@ -35,7 +35,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/computer.jpg');
+    /*background-color: #05006B;*/
+    background-color: #006b24;
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
@@ -98,6 +99,7 @@ body {
     display: grid;
     grid-auto-rows: max-content;
     align-content: center;
+    justify-content: center;
     gap: 1em;
     padding-bottom: 100px;
     text-align: center;
@@ -113,7 +115,7 @@ body {
 
 .cta {
     display: inline-block;
-    background-color: #2091F9;
+    background-color: #ec992d;
     justify-self: center;
     color: #fff;
     text-decoration: none;
