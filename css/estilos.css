@@ -662,16 +662,10 @@ body {
         */
     }
 }
-
-<<<<<<< HEAD
-=======
 .about img {
     max-width: 300px;
     max-height: 350px;
 }
-<<<<<<< HEAD
->>>>>>> 7f45b89a87156c9a3484118e752c7d6865f7c66f
-=======
 
 .carousel-item img{
     height: 350px;
@@ -682,4 +676,12 @@ body {
     padding: 1%;
     color: white;
 }
->>>>>>> b4f86dc4346cc70639263003ed667406a3eb70d6
+
+.card ul{
+    font-size: small;
+}
+
+.about a{
+    text-decoration: none;
+    color: white;
+}
