@@ -48,16 +48,16 @@
 
       <ul class="nav__link nav__link--menu">
         <li class="nav__items">
-          <a href="#" class="nav__links">Inicio</a>
+          <a href="#home_section" class="nav__links">Inicio</a>
         </li>
         <li class="nav__items">
-          <a href="#" class="nav__links">¿Quienes Somos?</a>
+          <a href="#about_section" class="nav__links">¿Quienes Somos?</a>
         </li>
         <li class="nav__items">
-          <a href="#" class="nav__links">Contactos</a>
+          <a href="#contact_section" class="nav__links">Contactos</a>
         </li>
         <li class="nav__items">
-          <a href="#" class="nav__links">Showcase Work</a>
+          <a href="#cases_section" class="nav__links">Showcase Work</a>
         </li>
 
         <img src="./images/close.svg" class="nav__close">
@@ -68,7 +68,7 @@
       </div>
     </nav>
 
-    <section class="hero__container container">
+    <section id="home_section" class="hero__container container">
       <div class="center">
         <img class="" width="300" height="300" src="./images/LOGO_mini.png">
       </div>
@@ -81,14 +81,12 @@
   </header>
 
   <main>
-    <section class="container about">
+    <section id="about_section" class="container about">
       <h1 class="subtitle">¿QUIÉNES SOMOS?</h1>
       <p class="about__paragraph">Somos Una empresa dedicada a la entrega de soluciones de software que sean
         capaces de satisfacer a nuestros clientes en todos los ámbitos</p>
       <br>
       <br>
-
-
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card bg-warning">
@@ -143,159 +141,167 @@
       </div>
     </section>
 
-    <div class="about">
-      <h1 class="subtitle">NUESTROS PROYECTOS</h1>
-      <div class="center">
-        <img class="" src="./images/figuras_logo.png">
-      </div>
-    </div>
 
-    <!-- showcase-->
-    <div class="container marketing">
-      <hr class="featurette-divider">
-      <div class="row featurette">
+    <section id="cases_section" class="container about">
+      <div class="about">
+        <h1 class="subtitle">NUESTROS PROYECTOS</h1>
+        <div class="center">
+          <img class="" src="./images/figuras_logo.png">
+        </div>
+      </div>
+
+      <!-- showcase-->
+      <div class="container marketing">
+        <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Lleva tu negocio al siguiente nivel </h2>
+            <p class="lead">Muestranos tus ideas y las hacemos realidad a través de un sitio web, podemos crear y crecer
+              todo lo que se te ocurra.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="images/CERVECERIA.png" class="featurette-image img-fluid mx-auto" width="500" height="400" alt="">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">¿Algún juego en mente? </h2>
+            <p class="lead">Nuestro equipo de desarrolladores puede llevar tu idea para un exitoso videojuego del
+              borrador
+              a la realidad</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="images/capo.PNG" class="featurette-image img-fluid mx-auto" width="500" height="400" alt="">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
         <div class="col-md-7">
-          <h2 class="featurette-heading">Lleva tu negocio al siguiente nivel </h2>
-          <p class="lead">Muestranos tus ideas y las hacemos realidad a través de un sitio web, podemos crear y crecer
-            todo lo que se te ocurra.</p>
+          <h2 class="featurette-heading">¿Quieres más? </h2>
+          <br>
         </div>
-        <div class="col-md-5">
-          <img src="images/CERVECERIA.png" class="featurette-image img-fluid mx-auto" width="500" height="400" alt="">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">¿Algún juego en mente? </h2>
-          <p class="lead">Nuestro equipo de desarrolladores puede llevar tu idea para un exitoso videojuego del borrador
-            a la realidad</p>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <img src="images/capo.PNG" class="featurette-image img-fluid mx-auto" width="500" height="400" alt="">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="col-md-7">
-        <h2 class="featurette-heading">¿Quieres más? </h2>
-        <br>
-      </div>
 
 
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col order-md-2">
-                <img src="images/LIFEGEMU.png" class="d-block w-80  featurette-image img-fluid mx-auto" width="500"
-                  height="400" alt="banner">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col order-md-2">
+                  <img src="images/LIFEGEMU.png" class="d-block w-80  featurette-image img-fluid mx-auto" width="500"
+                    height="400" alt="banner">
+                </div>
+                <div class="col">
+                  <h2 class="featurette-heading">Juego de la vida</h2>
+                  <p class="lead">Diseño e Implementacion del popular juego de la vida, modelo creado de forma
+                    totalmente
+                    independiente por
+                    nuestros desarrolladores.</p>
+                </div>
               </div>
-              <div class="col">
-                <h2 class="featurette-heading">Juego de la vida</h2>
-                <p class="lead">Diseño e Implementacion del popular juego de la vida, modelo creado de forma totalmente
-                  independiente por
-                  nuestros desarrolladores.</p>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col order-md-2">
+                  <img src="images/COVID_2.png" class="d-block w-80 h-60 featurette-image img-fluid mx-auto" width="500"
+                    height="400" alt="banner">
+                </div>
+                <div class="col">
+                  <h2 class="featurette-heading">Covid_register.</h2>
+                  <p class="lead">Construccion de una aplicacion de escritorio diseñada de manera completamente autonoma
+                    por parte de
+                    nuestro equipo donde se llevaba un registro de los casos de covid reportados y pendientes para
+                    facilitar su
+                    administracion en el ambito clase/laboral.</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col order-md-2">
-                <img src="images/COVID_2.png" class="d-block w-80 h-60 featurette-image img-fluid mx-auto" width="500"
-                  height="400" alt="banner">
-              </div>
-              <div class="col">
-                <h2 class="featurette-heading">Covid_register.</h2>
-                <p class="lead">Construccion de una aplicacion de escritorio diseñada de manera completamente autonoma
-                  por parte de
-                  nuestro equipo donde se llevaba un registro de los casos de covid reportados y pendientes para
-                  facilitar su
-                  administracion en el ambito clase/laboral.</p>
-              </div>
-            </div>
-          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </div>
+    </section>
+
   </main>
 
-
-  <!--integrantes-->
-  <div class="container about">
-    <h1 class="subtitle">CONOCE A NUESTROS DESAROLLADORES</h1>
-    <br>
-    <div class="center">
-      <img class="img-fluid" src="./images/figuras_logo.png">
+  <section id="contact_section">
+    <!--integrantes-->
+    <div class="container about">
+      <h1 class="subtitle">CONOCE A NUESTROS DESAROLLADORES</h1>
       <br>
-      <br>
+      <div class="center">
+        <img class="img-fluid" src="./images/figuras_logo.png">
+        <br>
+        <br>
 
-      <hr class="featurette-divider">
-      <div class="row row-cols-1 row-cols-md-4 g-4">
-        <div class="col">
-          <div class="card">
-            <img src="images/jorge_ivan.jpg" class="card-img-top img-fluid" width="150" height="150" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Jorge Alvarez</h5>
-              <p class="card-text">Soy especialista en las tecnologias:</p>
-              <ul>
-                <li>Java <progress id="file" max="100" value="80"></progress></li>
-                <li>Android <progress id="file" max="100" value="50"></progress></li>
-                <li>VB <progress id="file" max="100" value="60"></progress></li>
-                <li>C# <progress id="file" max="100" value="40"></progress></li>
-                <li>PHP <progress id="file" max="100" value="50"></progress></li>
-              </ul>
+        <hr class="featurette-divider">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="images/jorge_ivan.jpg" class="card-img-top img-fluid" width="150" height="150" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Jorge Alvarez</h5>
+                <p class="card-text">Soy especialista en las tecnologias:</p>
+                <ul>
+                  <li>Java <progress id="file" max="100" value="80"></progress></li>
+                  <li>Android <progress id="file" max="100" value="50"></progress></li>
+                  <li>VB <progress id="file" max="100" value="60"></progress></li>
+                  <li>C# <progress id="file" max="100" value="40"></progress></li>
+                  <li>PHP <progress id="file" max="100" value="50"></progress></li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="images/silis.jpeg" class="card-img-top img-fluid" max-width="150" height="150" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Jorge Aguacaliente</h5>
-              <p class="card-text">Desarrollador de aplicaciones móviles, conocimiento en java,html y css, manejadores
-                de bases de datos como Postgresql, mariadb y sql server. Amplio historial de desarrollo de páginas web y puntos de venta.</p>
+          <div class="col">
+            <div class="card">
+              <img src="images/silis.jpeg" class="card-img-top img-fluid" max-width="150" height="150" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Jorge Aguacaliente</h5>
+                <p class="card-text">Desarrollador de aplicaciones móviles, conocimiento en java,html y css, manejadores
+                  de bases de datos como Postgresql, mariadb y sql server. Amplio historial de desarrollo de páginas web
+                  y
+                  puntos de venta.</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="images/ivan.jpeg" class="card-img-top img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Iván León</h5>
-              <p class="card-text">Desarrollador de Videojuegos & web dev. Conocimientos en Java, C#, php, html.
-                Experiencia con motores graficos como Unity y Godot. Aplicaciones en area tecnica como uso de Machine
-                Edition (PLC oriented)</p>
+          <div class="col">
+            <div class="card">
+              <img src="images/ivan.jpeg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Iván León</h5>
+                <p class="card-text">Desarrollador de Videojuegos & web dev. Conocimientos en Java, C#, php, html.
+                  Experiencia con motores graficos como Unity y Godot. Aplicaciones en area tecnica como uso de Machine
+                  Edition (PLC oriented)</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="images/jose.jpeg" class="card-img-top img-fluid" width="150" height="150" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">José Montero</h5>
-              <p class="card-text">Desarrollador de aplicaciones de escritorio. Conocimientos en java, C# y python,
-                lenguajes de scripting como lua y wren. Experiencia en diseño gráfico, desarrollo de videojuegos y en
-                implementaciones en la nube.</p>
+          <div class="col">
+            <div class="card">
+              <img src="images/jose.jpeg" class="card-img-top img-fluid" width="150" height="150" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">José Montero</h5>
+                <p class="card-text">Desarrollador de aplicaciones de escritorio. Conocimientos en java, C# y python,
+                  lenguajes de scripting como lua y wren. Experiencia en diseño gráfico, desarrollo de videojuegos y en
+                  implementaciones en la nube.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-
+  </section>
   <!--contacto-->
   <header class="hero">
     <nav class="nav container">
@@ -332,9 +338,12 @@
           <a href="mailto:19030607@itcelaya.edu.mx">contacto@c4y.com</a>
           <section class="">
             <div class="">
-              <a href="https://www.facebook.com/" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
-              <a href="https://twitter.com/" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
-              <a href="https://mx.linkedin.com/" class="footer__icons"><img src="./images/linkedin.svg" class="footer__img"></a>
+              <a href="https://www.facebook.com/" class="footer__icons"><img src="./images/facebook.svg"
+                  class="footer__img"></a>
+              <a href="https://twitter.com/" class="footer__icons"><img src="./images/twitter.svg"
+                  class="footer__img"></a>
+              <a href="https://mx.linkedin.com/" class="footer__icons"><img src="./images/linkedin.svg"
+                  class="footer__img"></a>
             </div>
             <br>
             <h5 class="footer__copyright">Derechos reservados &copy; Team Le José</h5>
