@@ -147,6 +147,7 @@ body {
 
 .about__paragraph {
     line-height: 1.7;
+    font-size: xx-large;
 }
 
 /* Knowledge */
@@ -663,10 +664,7 @@ body {
         */
     }
 }
-.about img {
-    max-width: 300px;
-    max-height: 350px;
-}
+
 
 .carousel-item img{
     height: 350px;
@@ -685,4 +683,16 @@ body {
 .about a{
     text-decoration: none;
     color: white;
+}
+
+.mia img {
+    max-width: 800px;
+    max-height: 650px;
+    background: #1D293F;
+    padding: 1%;
+}
+
+.about img {
+    max-width: 800px;
+    max-height: 650px;
 }
