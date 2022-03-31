@@ -9,63 +9,32 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.navbara {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    background-color: #001A49;
+    z-index: 10;
+  }
+
+.navbar-brand{
+    width: 10%;
+}
+
+
+
 .container {
+    margin-top: 10%;
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
     padding: var(--padding-container);
-}
-
-.hero {
-    width: 100%;
-    height: 100vh;
-    min-height: 600px;
-    max-height: 900px;
-    position: relative;
-    display: grid;
-    grid-template-rows: 180px 1fr;
-    color: #fff;
-}
-
-.hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #05006B;
-    background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
-    z-index: -1;
-}
-
-
-/* Nav */
-
-
-
-/* Hero container */
-
-.hero__container {
-    max-width: 800px;
-    --padding-container: 0;
-    display: grid;
-    grid-auto-rows: max-content;
-    align-content: center;
-    justify-content: center;
-    gap: 1em;
-    padding-bottom: 100px;
-    text-align: center;
-}
-
-.hero__title {
-    font-size: 3rem;
-}
-
-.hero__paragraph {
-    margin-bottom: 20px;
 }
 
 /* About */
@@ -110,3 +79,63 @@ body {
     text-decoration: none;
     color: white;
 }
+
+.mia img {
+    max-width: 800px;
+    max-height: 650px;
+    background: #1D293F;
+    padding: 1%;
+}
+
+/*
+.hero {
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 900px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 180px 1fr;
+    color: #fff;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #05006B;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+    z-index: -1;
+}
+*/
+
+/* Nav */
+
+
+
+/* Hero container */
+/*
+.hero__container {
+    max-width: 800px;
+    --padding-container: 0;
+    display: grid;
+    grid-auto-rows: max-content;
+    align-content: center;
+    justify-content: center;
+    gap: 1em;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.hero__title {
+    font-size: 3rem;
+}
+
+.hero__paragraph {
+    margin-bottom: 20px;
+}
+*/
